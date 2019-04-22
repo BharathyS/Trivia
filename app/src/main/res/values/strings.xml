@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trivia</string>
+    <string name="loading">Loading...</string>
+
+    //Register Activity
+    <string name="Name">Name</string>
+    <string name="enter_valid_name">Enter Valid Name</string>
+    <string name="username_should_be_more_than_3">Name should be more than 3 letter</string>
+    <string name="enter_name">Enter your Name</string>
+
+    //Game Activity
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+
+    //Game over Activity
+    <string name="replay">Replay</string>
+    <string name="new_game">New Game</string>
+    <string name="_history">History</string>
+
+</resources>

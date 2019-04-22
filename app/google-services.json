@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "103359792919",
+    "firebase_url": "https://trivia-de5f1.firebaseio.com",
+    "project_id": "trivia-de5f1",
+    "storage_bucket": "trivia-de5f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103359792919:android:6015146e42c08963",
+        "android_client_info": {
+          "package_name": "com.appscrip.trivia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103359792919-jlm3teprd29ndk0aiba4m7c72fbmmh07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTQ6Yx3L0YdMTpYf32Pr-zHzBKK-KSZkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103359792919-jlm3teprd29ndk0aiba4m7c72fbmmh07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
