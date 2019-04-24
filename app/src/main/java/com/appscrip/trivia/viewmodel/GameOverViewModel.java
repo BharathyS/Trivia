@@ -28,7 +28,7 @@ public class GameOverViewModel extends AndroidViewModel implements DataSource.IM
 
     public GameOverViewModel(@NonNull Application application) {
         super(application);
-        this.application=application;
+        this.application = application;
         this.repository = Injection.getRepository(application);
     }
 
@@ -37,8 +37,6 @@ public class GameOverViewModel extends AndroidViewModel implements DataSource.IM
         if (gameNumber > PrefferenceManager.getGameNumber(application)) {
             isNextLevelAvailable.postValue(true);
         } else {
-            int nextLevelValue= PrefferenceManager.getGameNumber(application);
-            PrefferenceManager.setGameNumber(application,--nextLevelValue);
             isNextLevelAvailable.postValue(false);
         }
     }
@@ -46,7 +44,7 @@ public class GameOverViewModel extends AndroidViewModel implements DataSource.IM
     @Override
     public void omMaxGameLevelResponseError(String error) {
         onError.postValue(error);
-        int nextLevelValue= PrefferenceManager.getGameNumber(application);
-        PrefferenceManager.setGameNumber(application,--nextLevelValue);
+        int nextLevelValue = PrefferenceManager.getGameNumber(application);
+        PrefferenceManager.setGameNumber(application, --nextLevelValue);
     }
 }
